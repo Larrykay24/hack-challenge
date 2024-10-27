@@ -1,0 +1,35 @@
+body {
+    background-color: #1a1a1a;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    margin: auto;
+    max-width: 500px;
+}
+
+h1, h2 {
+    color: #f8f9fa;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+}

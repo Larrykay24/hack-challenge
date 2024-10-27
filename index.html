@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking Challenge</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Custom styles for the rounded buttons */
+        .challenge-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            border-radius: 50px;
+            background-color: #343a40;
+            color: #fff;
+            text-decoration: none;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+            border: 1px solid #fff;
+        }
+
+        .challenge-button:hover {
+            background-color: #495057;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="bg-dark text-white d-flex align-items-center justify-content-center" style="height: 100vh;">
+    <div class="container">
+        <div class="card shadow-lg rounded-lg text-center bg-dark border-light">
+            <div class="card-body">
+                <h1 class="card-title text-white">Welcome to the Hacking Challenge!</h1>
+                <p class="card-text">Can you solve the challenges?</p>
+                <div>
+                    <!-- Rounded button for Challenge 1 -->
+                    <a href="login.php" class="challenge-button">Challenge 1: Login Bypass</a>
+                    <!-- Rounded button for Challenge 2 -->
+                    <a href="/hidden/" class="challenge-button">Challenge 2: Find the Hidden Flag</a>
+                </div>
+            </div>
+            <div class="card-footer bg-dark border-light">
+                <p class="mb-0">Cyber Snipper 2024 | Cyber Fury</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
